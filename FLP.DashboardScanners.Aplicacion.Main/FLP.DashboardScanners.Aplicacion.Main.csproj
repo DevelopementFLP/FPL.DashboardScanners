@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FLP.DashboardScanners.Aplicacion.DTO\FLP.DashboardScanners.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\FLP.DashboardScanners.Aplicacion.Interface\FLP.DashboardScanners.Aplicacion.Interface.csproj" />
+    <ProjectReference Include="..\FLP.DashboardScanners.Domino.Entity\FLP.DashboardScanners.Dominio.Entity.csproj" />
+    <ProjectReference Include="..\FLP.DashboardScanners.Interface\FLP.DashboardScanners.Dominio.Interface.csproj" />
+    <ProjectReference Include="..\FPL.DashboardScanners.Infraestructura.Data\FPL.DashboardScanners.Infraestructura.Data.csproj" />
+  </ItemGroup>
+
+</Project>

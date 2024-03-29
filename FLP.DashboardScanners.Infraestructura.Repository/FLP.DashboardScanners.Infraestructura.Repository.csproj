@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.28" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FLP.DashboardScanners.Infraestructura.Interface\FLP.DashboardScanners.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\FPL.DashboardScanners.Infraestructura.Data\FPL.DashboardScanners.Infraestructura.Data.csproj" />
+    <ProjectReference Include="..\FPL.DashboardScanners.Transversal.Common\FPL.DashboardScanners.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

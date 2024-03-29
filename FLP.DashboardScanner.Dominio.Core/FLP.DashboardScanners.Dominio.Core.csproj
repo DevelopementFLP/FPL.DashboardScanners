@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FLP.DashboardScanners.Domino.Entity\FLP.DashboardScanners.Dominio.Entity.csproj" />
+    <ProjectReference Include="..\FLP.DashboardScanners.Infraestructura.Interface\FLP.DashboardScanners.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\FLP.DashboardScanners.Interface\FLP.DashboardScanners.Dominio.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
